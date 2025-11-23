@@ -1,0 +1,10 @@
+{
+  "name": "Excel to Calendar",
+  "description": "Take dates from an excel spreadsheet and add them to calendar",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "excel-logo.png"
+  }
+}
