@@ -1,8 +1,18 @@
 <html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
     <body>
         <input type="file" name="file" id="file" />
         <input type="text" name="username" id="username" />
         <button id="parse-btn">Parse File</button>
+
+        <select id="event-dropdown">
+            <option value="">-- Select an event --</option>
+        </select>
+        <button id="add-one">Add Selected Event</button>
+        <button id="add-all">Add All Events</button>
+
         <script src="xlsx.full.min.js"></script>
         <script src="popup.js"></script>
     </body>
