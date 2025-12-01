@@ -20,5 +20,14 @@
                 "chrome-extension://*/*"
             ]
         }
-    ]
+    ],
+    "permissions": [
+        "identity"
+    ],
+    "oauth2": {
+        "client_id": "78047412822-otv1q602p8j0go64bvostkcqtfcdljof.apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/calendar"
+        ]
+    }
 }
